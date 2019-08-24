@@ -75,7 +75,7 @@ p {
   left: calc(50% - 20px);
   height: 1px;
   width: 40px;
-  background: #2af598;
+  background: #5cc0b9;
   z-index: 2;
 }
 
@@ -91,7 +91,7 @@ p {
   position: absolute;
   bottom: -1px;
   left: 0;
-  background: #2af598;
+  background: #5cc0b9;
   height: 1px;
   width: 70px;
 }
@@ -208,7 +208,7 @@ p {
 }
 
 .nav-link:hover{
-  color: #2af598 !important
+  color: #5cc0b9 !important
 }
 
 .logo {
@@ -260,7 +260,7 @@ p {
 }
 .header .caption h4 {
   margin-bottom: 30px;
-  color: #2af598;
+  color: #5cc0b9;
 }
 .header .caption h1 {
   margin-bottom: 30px;
@@ -269,7 +269,7 @@ p {
   text-transform: uppercase;
 }
 .header .caption .type span {
-  color: #2af598;
+  color: #5cc0b9;
   font-size: 37px;
   font-weight: 400;
 }
@@ -352,7 +352,7 @@ p {
   line-height: 1.8;
 }
 .hero .hero-content .info h5 span {
-  color: #2af598;
+  color: #5cc0b9;
   padding-right: 10px;
 }
 .hero .hero-content .info h5 span .icon {
@@ -374,9 +374,9 @@ p {
   transition: all .5s;
 }
 .hero .hero-content .social-icon span:hover {
-  background: #2af598;
+  background: #5cc0b9;
   color: #fff;
-  border-color: #2af598;
+  border-color: #5cc0b9;
 }
 .hero .skills .item {
   margin-bottom: 40px;
@@ -397,7 +397,7 @@ p {
   height: 100%;
   position: absolute;
   left: 0;
-  background: #2af598;
+  background: #5cc0b9;
   -webkit-transition: all 1s;
   transition: all 1s;
 }
@@ -451,7 +451,7 @@ p {
   background: #121212;
 }
 .resume .tabs-icon .active span {
-  color: #2af598;
+  color: #5cc0b9;
 }
 .resume .resume-content {
   padding-left: 10%;
@@ -475,7 +475,7 @@ p {
   left: -5px;
   width: 10px;
   height: 10px;
-  background: #2af598;
+  background: #5cc0b9;
   border-radius: 50%;
 }
 .resume .resume-content li:last-child {
@@ -486,7 +486,7 @@ p {
 }
 .resume .resume-content li .date {
   font-size: 12px;
-  color: #2af598;
+  color: #000000;
   margin-bottom: 15px;
 }
 
@@ -519,7 +519,7 @@ p {
 }
 .numbers .item .icon {
   font-size: 35px;
-  color: #2af598;
+  color: #5cc0b9;
   margin-bottom: 15px;
 }
 .numbers .item h5 {
@@ -540,7 +540,7 @@ p {
 }
 .services .item .icon {
   font-size: 35px;
-  color: #2af598;
+  color: #5cc0b9;
   margin-bottom: 15px;
 }
 .services .item h6 {
@@ -578,7 +578,7 @@ p {
 .clients .icon {
   font-size: 40px;
   margin-bottom: 30px;
-  color: #2af598;
+  color: #5cc0b9;
 }
 .clients .client-item {
   color: #fff;
@@ -600,7 +600,7 @@ p {
   margin-bottom: 30px;
   font-size: 12px;
   letter-spacing: 1px;
-  color: #2af598;
+  color: #5cc0b9;
 }
 .clients .owl-theme .owl-dots .owl-dot span {
   background: transparent;
@@ -608,8 +608,8 @@ p {
 }
 .clients .owl-theme .owl-dots .owl-dot.active span,
 .clients .owl-theme .owl-dots .owl-dot:hover span {
-  background: #2af598;
-  border-color: #2af598;
+  background: #5cc0b9;
+  border-color: #5cc0b9;
 }
 
 /* -------------------------------------------------------
@@ -634,7 +634,7 @@ p {
   content: "";
   width: 1px;
   height: 100%;
-  background: #2af598;
+  background: #5cc0b9;
   position: absolute;
   left: 50%;
   top: 0;
@@ -643,7 +643,7 @@ p {
   transition: all .4s;
 }
 .portfolio .filtering .active {
-  color: #2af598;
+  color: #5cc0b9;
 }
 .portfolio .filtering .active:after {
   left: 0;
@@ -698,7 +698,7 @@ p {
   cursor: pointer;
 }
 .portfolio .item-img .icon:hover {
-  background: #2af598;
+  background: #5cc0b9;
   color: #fff;
 }
 .portfolio .item-img-overlay {
@@ -770,8 +770,8 @@ p {
   font-size: 16px;
   padding: 8px 28px;
   margin: 5px;
-  background: #2af598;
-  border: 1px solid #2af598;
+  background: #5cc0b9;
+  border: 1px solid #5cc0b9;
   border-radius: 30px;
   -webkit-transition: all .5s;
   transition: all .5s;
@@ -805,7 +805,7 @@ p {
 }
 .blog .item .cont-post .tag {
   margin-bottom: 30px;
-  color: #2af598;
+  color: #5cc0b9;
 }
 .blog .item .cont-post h6 {
   font-size: 18px;
@@ -813,8 +813,8 @@ p {
 }
 .blog .item .cont-post .botn {
   margin-top: 30px;
-  background: #2af598;
-  border: 1px solid #2af598;
+  background: #5cc0b9;
+  border: 1px solid #5cc0b9;
   border-radius: 30px;
   color: #fff;
   padding: 10px 25px;
@@ -823,7 +823,7 @@ p {
 }
 .blog .item .cont-post .botn:hover {
   background: transparent;
-  color: #2af598;
+  color: #5cc0b9;
 }
 
 .posts {
@@ -859,7 +859,7 @@ p {
   padding: 30px;
   margin: 10px auto;
   background: #f7f7f7;
-  border-left: 4px solid #2af598;
+  border-left: 4px solid #5cc0b9;
 }
 .posts .item .content .mor-inf {
   margin-bottom: 30px;
@@ -873,15 +873,15 @@ p {
   letter-spacing: 1px;
 }
 .posts .item .content .mor-inf li a:hover {
-  color: #2af598;
+  color: #5cc0b9;
 }
 .posts .item .content .mor-inf li .icon {
   margin-right: 5px;
 }
 .posts .item .content .more {
   padding: 12px 30px;
-  background: #2af598;
-  border: 1px solid #2af598;
+  background: #5cc0b9;
+  border: 1px solid #5cc0b9;
   color: #fff;
   text-transform: uppercase;
   font-size: 12px;
@@ -891,7 +891,7 @@ p {
 }
 .posts .item .content .more:hover {
   background: transparent;
-  color: #2af598;
+  color: #5cc0b9;
 }
 .posts .item .content .share .shar {
   border: 1px solid #ccc;
@@ -917,7 +917,7 @@ p {
   line-height: 30px;
 }
 .posts .item .content .share span:hover {
-  color: #2af598;
+  color: #5cc0b9;
 }
 .posts .comm {
   padding-bottom: 30px;
@@ -966,8 +966,8 @@ p {
   max-height: 160px;
 }
 .posts .lev-comm input[type="submit"] {
-  background: #2af598;
-  border-color: #2af598;
+  background: #5cc0b9;
+  border-color: #5cc0b9;
   color: #fff;
   font-size: 14px;
   text-transform: uppercase;
@@ -977,7 +977,7 @@ p {
 }
 .posts .lev-comm input[type="submit"]:hover {
   background: transparent;
-  color: #2af598;
+  color: #5cc0b9;
 }
 .posts .numb span {
   padding: 10px 16px;
@@ -990,12 +990,12 @@ p {
   transition: all .5s;
 }
 .posts .numb span:hover {
-  background: #2af598;
-  border-color: #2af598;
+  background: #5cc0b9;
+  border-color: #5cc0b9;
   color: #fff;
 }
 .posts .numb .active {
-  border-color: #2af598;
+  border-color: #5cc0b9;
   color: #555;
 }
 
@@ -1057,8 +1057,8 @@ p {
   transition: all .5s;
 }
 .side-bar .widget .follow span:hover {
-  border-color: #2af598;
-  background: #2af598;
+  border-color: #5cc0b9;
+  background: #5cc0b9;
   color: #fff;
 }
 .side-bar .widget .lpost .item {
@@ -1096,7 +1096,7 @@ p {
   left: 0;
   top: 1px;
   font-family: "FontAwesome";
-  color: #2af598;
+  color: #5cc0b9;
 }
 .side-bar .widget .catg h5 span {
   float: right;
@@ -1111,8 +1111,8 @@ p {
   transition: all .5s;
 }
 .side-bar .widget .tags span:hover {
-  background: #2af598;
-  border-color: #2af598;
+  background: #5cc0b9;
+  border-color: #5cc0b9;
   color: #fff;
 }
 
@@ -1182,8 +1182,8 @@ p {
   color: #eee;
 }
 .contact .form input[type="submit"] {
-  border: 1px solid #2af598;
-  background: #2af598;
+  border: 1px solid #5cc0b9;
+  background: #5cc0b9;
   font-weight: 700;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -1192,7 +1192,7 @@ p {
 }
 .contact .form input[type="submit"]:hover {
   background: transparent;
-  color: #2af598;
+  color: #5cc0b9;
 }
 .contact .info {
   text-align: center;
@@ -1206,7 +1206,7 @@ p {
 .contact .info .item .icon {
   font-size: 30px;
   margin-bottom: 20px;
-  color: #2af598;
+  color: #5cc0b9;
 }
 .contact .info .item h6 {
   font-family: "Muli", sans-serif;
@@ -1223,7 +1223,7 @@ p {
   margin: 0 15px;
 }
 .contact .info .social-icon span:hover {
-  color: #2af598;
+  color: #5cc0b9;
 }
 .contact .copy {
   margin-top: 80px;

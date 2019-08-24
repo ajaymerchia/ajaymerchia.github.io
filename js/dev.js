@@ -30,12 +30,12 @@ $(function() {
         if(bodyScroll > 300){
 
             navbar.addClass("nav-scroll");
-						$("#logoBox").attr('src', 'img/logo-bk.png')
+						$("#logoBox").attr('src', '../img/logo-bk.png')
 
         }else{
 
             navbar.removeClass("nav-scroll");
-						$("#logoBox").attr('src', 'img/logo-wh.png')
+						$("#logoBox").attr('src', '../img/logo-wh.png')
         }
     });
 
@@ -63,16 +63,18 @@ $(function() {
 
     // typejs
     $('.header .caption h3').typed({
-        strings: 	["Developer."],
-        loop: false,
+        strings: 	[
+					"Developer.",
+					"Product Manager.",
+				],
+        loop: true,
         startDelay: 1000,
         backDelay: 1000,
         typeSpeed: 30,
         showCursor: true,
-		cursorChar: '|',
-		autoInsertCss: true
+				cursorChar: '|',
+				autoInsertCss: true
     });
-
 
     // counterUp
     $('.numbers .counter').counterUp({

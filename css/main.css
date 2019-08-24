@@ -560,7 +560,7 @@ h1,h2,h3,h4,h5,h6{
   height: 50px;
   border-radius: 50%;
   border: 2px solid #e8e8e8;
-  border-top: 2px solid #2af598;
+  border-top: 2px solid #5cc0b9;
   -webkit-animation: rotate 1.2s infinite linear;
   animation: rotate 1.2s infinite linear;
 }

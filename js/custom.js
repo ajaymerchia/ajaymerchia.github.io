@@ -30,12 +30,12 @@ $(function() {
         if(bodyScroll > 300){
 
             navbar.addClass("nav-scroll");
-						$("#logoBox").attr('src', 'img/logo-bk.png')
+						$("#logoBox").attr('src', '../img/logo-bk.png')
 
         }else{
 
             navbar.removeClass("nav-scroll");
-						$("#logoBox").attr('src', 'img/logo-wh.png')
+						$("#logoBox").attr('src', '../img/logo-wh.png')
         }
     });
 
@@ -73,6 +73,7 @@ $(function() {
 					"Dancer.",
 					"Gamer.",
 					"Escape Room Fanatic.",
+					"Magic Hobbyist.",
 					"and more!"
 				],
         loop: true,

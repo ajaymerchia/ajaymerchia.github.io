@@ -96,8 +96,8 @@
 
 .botn {
   margin-top: 30px;
-  background: #2af598;
-  border: 1px solid #2af598;
+  background: #5cc0b9;
+  border: 1px solid #5cc0b9;
   border-radius: 30px;
   color: #fff;
   padding: 10px 25px;
@@ -106,7 +106,7 @@
 }
 .botn:hover {
   background: #fff;
-  color: #2af598;
+  color: #5cc0b9;
 }
 
 .card {
@@ -117,9 +117,9 @@
   cursor: not-allowed;
   margin-top: 30px;
   background: #fff;
-  border: 1px solid #2af598;
+  border: 1px solid #5cc0b9;
   border-radius: 30px;
-  color: #2af598;
+  color: #5cc0b9;
   padding: 10px 25px;
 }
 
