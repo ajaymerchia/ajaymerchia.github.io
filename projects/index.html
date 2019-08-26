@@ -107,6 +107,117 @@
 <!-- ====== Hero ======  -->
 <section id="projects" class="hero section-padding">
 	<div class="container">
+    <h1> My Projects </h1>
+    <i><p> Check out what I've built!</p></i>
+    <hr>
+		<div id="project-build-zone" class="container col-md-12">
+
+
+    </div>
+    <script>
+      const buildZone = document.getElementById("project-build-zone")
+      var idx = 0
+
+      function getHR() {
+        var hr = document.createElement("hr")
+        hr.style.borderColor = "#bbb"
+        return hr
+      }
+      function createProjectPane(config) {
+        var pane = document.createElement("div")
+        pane.className = "col-md-4 padding top-space bottom-space"
+
+        var innerPane = document.createElement("div")
+        innerPane.className = "col-md-12 card centered padding-def"
+
+        var logo = document.createElement("img")
+        logo.className = "col-md-12 bottom-space top-space"
+        logo.src = config.img
+        logo.style.borderRadius = "50px"
+
+        var projectHeader = document.createElement("div")
+
+
+        var title = document.createElement("h3")
+        title.innerHTML = config.title
+
+        var languages = document.createElement("div")
+        languages.className = "row centered"
+
+        for (language of config.languages) {
+          var langIcon = document.createElement("img")
+          langIcon.src = `../img/languages/${language}.png`
+          langIcon.style.height = "30px"
+          langIcon.style.width = "30px"
+          langIcon.style.margin = "10px"
+          languages.appendChild(langIcon)
+        }
+
+        var body = document.createElement("p")
+        body.appendChild(getHR())
+
+        var first = true
+        for (line of config.description.split("\n")) {
+          if (!first) {
+            body.appendChild(document.createElement("br"))
+          }
+          body.appendChild(document.createTextNode(line))
+          first = false
+        }
+
+
+        var status = document.createTextNode(config.status)
+
+        var outlink = document.createElement("a")
+        outlink.href = config.link
+
+        var outlinkBody = document.createElement("span")
+        if (config.is_private) {
+          outlinkBody.className = "private-proj"
+        } else {
+          outlinkBody.className = "botn"
+        }
+        outlinkBody.innerHTML = config.action
+
+        outlink.appendChild(outlinkBody)
+        body.appendChild(getHR())
+        body.appendChild(status)
+
+        innerPane.appendChild(logo)
+        innerPane.appendChild(title)
+        innerPane.appendChild(languages)
+        innerPane.appendChild(body)
+        innerPane.appendChild(outlink)
+
+        pane.appendChild(innerPane)
+        return pane
+      }
+
+      $.getJSON("projects.json", function(projects) {
+        var currRow
+        console.log(projects);
+
+        for (project of projects){
+          console.log(project.title);
+          if (idx % 3 == 0) {
+            // set the currRow
+            currRow = document.createElement("div")
+            currRow.className = "row col-md-12"
+            // add it to buildzone
+            buildZone.appendChild(currRow)
+          }
+          currRow.appendChild(createProjectPane(project))
+          idx+=1;
+        }
+      });
+
+
+    </script>
+  </div>
+</section>
+
+<section id="projects" class="hero section-padding">
+	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
 				<h1> My Projects </h1>
@@ -114,94 +225,6 @@
 				<hr>
 				<div id="projects_container" class="">
 
-
-          <div class="col-md-4 padding top-space bottom-space">
-            <div class="col-md-12 card centered padding-def">
-              <img class="col-md-12 bottom-space top-space" src="../img/logos/opptycall.jpg">
-              <h3> CozmicGo </h3>
-              <hr style="border-color: #bbb">
-              <p>
-                Built an analytical and predictive tool that provided
-                calling schedules to telemarketers, doubling call connect rates.
-                <hr style="border-color: #bbb">
-                <br>
-                Completed
-                July 2018.
-               </p>
-
-               <a href="">
-                 <span class="private-proj">Not Public</span>
-               </a>
-
-
-            </div>
-          </div>
-
-          <div class="col-md-4 padding top-space bottom-space">
-						<div class="col-md-12 card centered padding-def">
-							<img class="col-md-12 bottom-space top-space" src="../img/logos/opptycall.jpg">
-							<h3> ARMDevSuite </h3>
-							<hr style="border-color: #bbb">
-							<p>
-								Built an analytical and predictive tool that provided
-								calling schedules to telemarketers, doubling call connect rates.
-								<hr style="border-color: #bbb">
-								<br>
-								Completed
-								July 2018.
-							 </p>
-
-							 <a href="">
-								 <span class="private-proj">Not Public</span>
-							 </a>
-
-
-						</div>
-					</div>
-
-          <div class="col-md-4 padding top-space bottom-space">
-						<div class="col-md-12 card centered padding-def">
-							<img class="col-md-12 bottom-space top-space" src="../img/logos/boxlet.jpg">
-							<h3> BoxletAdmin - iOS </h3>
-							<hr style="border-color: #bbb">
-							<p>
-								Built a responsive web app for peer-to-peer storage using ExpressJS,
-								Node.JS, Google APIs, and more!
-
-								<hr style="border-color: #bbb">
-								<br>
-								Created
-								May 2018.
-							 </p>
-
-							 <a href="http://boxletstorage.com/">
-								 <span class="botn">Visit Site</span>
-							 </a>
-
-						</div>
-					</div>
-
-          <div class="col-md-4 padding top-space bottom-space">
-						<div class="col-md-12 card centered padding-def">
-							<img class="col-md-12 bottom-space top-space" src="../img/logos/boxlet.jpg">
-							<h3> Boxlet - React </h3>
-							<hr style="border-color: #bbb">
-							<p>
-								Built a responsive web app for peer-to-peer storage using ExpressJS,
-								Node.JS, Google APIs, and more!
-
-								<hr style="border-color: #bbb">
-								<br>
-								Created
-								May 2018.
-							 </p>
-
-							 <a href="http://boxletstorage.com/">
-								 <span class="botn">Visit Site</span>
-							 </a>
-
-						</div>
-					</div>
 
           <div class="col-md-4 padding top-space bottom-space">
 						<div class="col-md-12 card centered padding-def">
@@ -449,7 +472,7 @@
 							<h3> Escape! </h3>
 							<hr style="border-color: #bbb">
 							<p>
-								Escape From Math Mountain<br>My first high school, a math-based racing game in
+								Escape From Math Mountain<br>My very first coding project, a math-based racing game in
 								Java.
 								<hr style="border-color: #bbb">
 

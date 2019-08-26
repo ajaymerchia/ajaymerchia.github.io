@@ -1,0 +1,52 @@
+[
+  {
+    "img": "../img/logos/cozmicgo.jpg",
+    "title": "CozmicGo",
+    "description": "CozmicGo connects celebrities & influencers to eventgoers to bring social media into the real world.\n\nI designed, developed, and deployed over 120 features as the product manager amongst 6 developers, increasing sprint velocity 70%.\n\nKey features I worked on include a transactional database system, encrypted check-ins, and a mutual friends algorithmn. As a PM, I led scrums; defined framework, backend, and app teams; and coordinated dev efforts on larger features.",
+    "languages": ["swift", "nodejs"],
+    "status": "Releasing September 2019",
+    "is_private": true,
+    "action": "Under Construction",
+    "link": ""
+  },
+  {
+    "img": "../img/logos/boxlet.jpg",
+    "title": "BoxletAdmin",
+    "description": "The BoxletAdmin iOS app provides business automation & reporting for Boxlet Storage, an AirBnB for Storage. \n\nWorking with nontechnical members of our team, I define admin processes, then provide an interface for server-side financial and database adjustment.\n\nBoth statistical reporting and admin services are provided by the app. Deployed securely via a NodeJS deployment server.",
+    "status": "Started May 2019",
+    "languages": ["swift"],
+    "is_private": true,
+    "action": "Private",
+    "link": ""
+  },
+  {
+    "img": "../img/logos/boxlet.jpg",
+    "title": "Boxlet - React",
+    "description": "Boxlet Storage, an AirBnB for Storage, needed a responsive, web counterpart to its mobile apps.\n\nI PM'ed the React Web Client for Boxlet. I ensured that we could ship a booking-only MVP within 2 weeks, and the rest of the product functionality within 2 months.\n\nI also architected the application's infrastructure to protect against DDOS-ing our API, regulate data access control, and data separation across our deployment pipeline.",
+    "status": "Started May 2019",
+    "languages": ["react", "nodejs"],
+    "is_private": false,
+    "action": "Visit Site",
+    "link": "http://app.boxletstorage.com"
+  },
+  {
+    "img": "../img/logos/boxlet.jpg",
+    "title": "Boxlet - API",
+    "description": "The Boxlet RESTful API provides the backend logic that keeps all Boxlet services alive. \n\nI was the lead developer of the Boxlet API. ",
+    "status": "Started April 2019",
+    "languages": ["nodejs"],
+    "is_private": true,
+    "action": "Private",
+    "link": ""
+  },
+  {
+    "img": "../img/logos/armdevsuite.jpg",
+    "title": "ARMDevSuite",
+    "description": "The ARMDevSuite is a custom cocoapod composed of 12 libraries. \n\n7 are UI Framework libraries that conform to protocol-delegate design & rapidly increase the speed of app teams. The remainder are logic libraries that provide easy APIs for data model manipulation. \n\nWIP - documentation required.",
+    "status": "Started January 2019",
+    "languages": ["swift"],
+    "is_private": false,
+    "action": "View GitHub",
+    "link": "https://github.com/ajaymerchia/ARMDevSuite"
+  }
+]
