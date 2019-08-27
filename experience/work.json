@@ -72,18 +72,6 @@
     "technical_skills": "HTML, CSS, JS, Responsive Web Design, Bash Scripting, System Macros, Final Cut Pro"
   },
   {
-    "id": "illumix",
-    "link": "https://www.marketgames.io",
-    "img": "illumix.png",
-    "accent": "#469CE9",
-    "title": "Illumix",
-    "position": "Marketing Intern",
-    "dates": "February 2018 - April 2018",
-    "description": "The Looking Glass is an augmented reality gaming studio bringing fandom worlds to life by partnering with the relevant IP owners. Increased recruiting awareness by designing 15+ design assets for a recruiting fair and developed additional assets for the landing page. Finalized company logo amongst 18 different propositions.",
-    "business_skills": "Creative Design, Photoshop",
-    "technical_skills": null
-  },
-  {
     "id": "mgames",
     "link": "https://www.marketgames.io",
     "img": "mgames.jpg",
@@ -94,6 +82,18 @@
     "description": "Berkeley-Haas start-up providing business simulation games for higher education. Tested product in business simulations, as well as performed research on higher education institutions through speaking with department heads in order to better design and tailor web-based content.",
     "business_skills": "Marketing Collateral Design, Customer Research, UX Research",
     "technical_skills": "HTML, Web Design"
+  },
+  {
+    "id": "illumix",
+    "link": "https://illumix.com",
+    "img": "illumix.png",
+    "accent": "#469CE9",
+    "title": "Illumix",
+    "position": "Marketing Intern",
+    "dates": "July 2017 - October 2017",
+    "description": "Illumix provides augmented reality tech as a gaming studio to bring fandom worlds to life by partnering with the relevant IP owners. Increased recruiting awareness by designing 15+ design assets for a recruiting fair and developed additional assets for the landing page. Finalized company logo amongst 18 different propositions.",
+    "business_skills": "Creative Design, Photoshop",
+    "technical_skills": null
   },
   {
     "id": "lsvp",
