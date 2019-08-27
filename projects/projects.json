@@ -3,7 +3,7 @@
     "img": "../img/logos/cozmicgo.jpg",
     "title": "CozmicGo",
     "description": "CozmicGo connects celebrities & influencers to eventgoers to bring social media into the real world.\n\nI designed, developed, and deployed over 120 features as the product manager amongst 6 developers, increasing sprint velocity 70%.\n\nKey features I worked on include a transactional database system, encrypted check-ins, and a mutual friends algorithmn. As a PM, I led scrums; defined framework, backend, and app teams; and coordinated dev efforts on larger features.",
-    "languages": ["swift", "nodejs"],
+    "languages": ["swift", "html", "nodejs"],
     "status": "Releasing September 2019",
     "is_private": true,
     "action": "Under Construction",

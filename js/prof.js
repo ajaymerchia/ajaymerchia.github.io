@@ -62,16 +62,17 @@ $(function() {
 
 
     // typejs
-    $('.header .caption h3').typed({
-        strings: 	["Professional."],
-        loop: false,
+		$('.header .caption h3').typed({
+        strings: 	["Professional.", "Leader."],
+        loop: true,
         startDelay: 1000,
         backDelay: 1000,
         typeSpeed: 30,
         showCursor: true,
-		cursorChar: '|',
-		autoInsertCss: true
+				cursorChar: '|',
+				autoInsertCss: true
     });
+
 
 
     // counterUp

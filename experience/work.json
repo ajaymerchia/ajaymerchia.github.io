@@ -7,9 +7,9 @@
     "title": "Boxlet Storage",
     "position": "Co-Founder, Product Lead",
     "dates": "May 2018 - Present",
-    "description": "Developed an online marketplace that targeted students with lease terms that prevent subleases to rent space in their apartments for storage. Connected hosts with students needing affordable local summer storage. Acquired 40 customers in first 3 weeks of company life. Created MVP of technical product. Designed scalable back-end. Developed Go-to-market strategy and created pricing models.",
-    "business_skills": "Promotional Marketing, Customer Discovery, Design, Ad Campaigns",
-    "technical_skills": "HTML, CSS, JS, Node.JS, Google APIs, FB APIs, Stripe API, Heroku, Firebase"
+    "description": "Founded an Airbnb-like peer-to-peer storage network at Cal & UCLA, attracting 200+ bookings over summer and $10k+ in revenue. Created API for Boxlet, enabling cross-platform functionality between iOS, Android, and web users, doubling bookings and users. Solidified competitive price points by writing web scripts to scrape 200+ storage facility sites and benchmark their cost/sq. foot.",
+    "business_skills": "Customer Discovery & Interviews, Marketing Strategy, Competitive Analysis, Ad Campaigns, Marketing Collateral Design, Customer Support, ",
+    "technical_skills": "HTML, CSS, JS, Node.JS, Google APIs, FB APIs, Stripe API, Heroku, Firebase, Business Process Automation"
   },
   {
     "id": "mdb",
@@ -17,11 +17,11 @@
     "img": "mdb.jpg",
     "accent": "#73B9F2",
     "title": "MDB",
-    "position": "Product Manager, Mentor",
+    "position": "Product Manager, Instructor",
     "dates": "February 2019 - Present",
     "description": "Designed, developed, and deployed an iOS app connecting influencers to eventgoers under a $50,000 contract for high-growth startup. Led team of 6 developers to deliver over 120 app features by enforcing AGILE development sprints, increasing sprint velocity by 70% Developed & taught 80-hour iOS development and user research curriculum to 17 students driving 95% freshman job placement rate",
-    "business_skills": "Leadership",
-    "technical_skills": "Swift"
+    "business_skills": "Leadership, Product Management, Engineering Management, Negotiation, Go-To-Market Strategy",
+    "technical_skills": "Swift, Front-End Web, Node.JS, Server Daemons and Chrons"
   },
   {
     "id": "sage",
@@ -31,7 +31,7 @@
     "title": "Sage Intacct",
     "position": "Product Management Intern",
     "dates": "May 2019 - August 2019",
-    "description": "A Saas company providing cloud-based financial accounting software. Created integration between SEM machine learning tool and marketing automation platform. Created lead qualification AI. Created analytics and predictive intelligence tool for telemarkters. Performed multiple data dives across funnel and resolved pipeline inefficiences.",
+    "description": "Recommended 5-year core product roadmap bringing in $25mn/year by conducting sentiment analysis; After analyzing over 700 escalations and bucketing customer needs into top 8 themes, prioritized most pressing features with customer survey, 200+ responses. Led team of 3 engineers to query 11 key usage metrics from customer database; Utilized metrics to design 3 user experiences, define and design 2 UI components, identify 2 critical product needs surfaced by 60+ customer workarounds, and rank feature importance. Coordinated product teams to architect the beta release of an accounting ledger anomaly detection AI by defining its 8 subprocesses",
     "business_skills": "Data analysis, Marketo, Adwords, Google Analytics, Microsoft Excel, Salesforce, Presentation Skills",
     "technical_skills": "HTML, CSS, DJango, Python, R, Heroku, Batch, FTP libraries, Assorted APIs, Node.JS, Express.JS, Chart.JS, CryptoJS, VBA"
   },
@@ -43,9 +43,9 @@
     "title": "Y-Combinator",
     "position": "Startup School Fellow",
     "dates": "August 2018 - January 2019",
-    "description": "Developed an online marketplace that targeted students with lease terms that prevent subleases to rent space in their apartments for storage. Connected hosts with students needing affordable local summer storage. Acquired 40 customers in first 3 weeks of company life. Created MVP of technical product. Designed scalable back-end. Developed Go-to-market strategy and created pricing models.",
-    "business_skills": "Data analysis, Marketo, Adwords, Google Analytics, Microsoft Excel, Salesforce, Presentation Skills",
-    "technical_skills": "HTML, CSS, DJango, Python, R, Heroku, Batch, FTP libraries, Assorted APIs, Node.JS, Express.JS, Chart.JS, CryptoJS, VBA"
+    "description": "Founded an Airbnb-like peer-to-peer storage network at Cal & UCLA, attracting 200+ bookings over summer and $10k+ in revenue. Created API for Boxlet, enabling cross-platform functionality between iOS, Android, and web users, doubling bookings and users. Solidified competitive price points by writing web scripts to scrape 200+ storage facility sites and benchmark their cost/sq. foot. Attended weekly sessions with a Y-Combinator mentor and refined our product, messaging, and growth strategies.",
+    "business_skills": "Customer Discovery & Interviews, Marketing Strategy, Competitive Analysis, Ad Campaigns, Marketing Collateral Design, Customer Support, ",
+    "technical_skills": "HTML, CSS, JS, Node.JS, Google APIs, FB APIs, Stripe API, Heroku, Firebase, Business Process Automation"
   },
   {
     "id": "sage",
@@ -55,9 +55,9 @@
     "title": "Sage Intacct",
     "position": "Demand Generation Intern",
     "dates": "May 2018 - Present",
-    "description": "A Saas company providing cloud-based financial accounting software. Created integration between SEM machine learning tool and marketing automation platform. Created lead qualification AI. Created analytics and predictive intelligence tool for telemarkters. Performed multiple data dives across funnel and resolved pipeline inefficiences.",
+    "description": "Increased average call connect rate of 38 telemarketers from 5% to 12% by developing OpptyCall, a descriptive & prescriptive artificial intelligence that customizes telemarketer calling schedules. Reduced annual lead prospecting costs by $150K and improved lead quality by 23% by building a lead-qualification machine learning model. Increased opportunity production by 167% by (1) identifying lead-scoring changes that incorrectly prioritized leads, (2) identifying underperforming PPL vendors by vertical, (3) proposing telemarketer hiring schedules based on attrition and productivity curves",
     "business_skills": "Data analysis, Marketo, Adwords, Google Analytics, Microsoft Excel, Salesforce, Presentation Skills",
-    "technical_skills": "HTML, CSS, DJango, Python, R, Heroku, Batch, FTP libraries, Assorted APIs, Node.JS, Express.JS, Chart.JS, CryptoJS, VBA"
+    "technical_skills": "HTML, CSS, DJango, Python, R, Heroku, Batch, FTP libraries, Salesforce API, LinkedIn API, PyAutoGUI, Node.JS, Express.JS, Chart.JS, CryptoJS, VBA"
   },
   {
     "id": "campaign",
@@ -92,7 +92,7 @@
     "position": "Business Development Intern",
     "dates": "January 2018 - April 2018",
     "description": "Berkeley-Haas start-up providing business simulation games for higher education. Tested product in business simulations, as well as performed research on higher education institutions through speaking with department heads in order to better design and tailor web-based content.",
-    "business_skills": "Content Marketing, Marketing Collateral Design, Market Research, Product Testing, Business Finances, Business Operations",
+    "business_skills": "Marketing Collateral Design, Customer Research, UX Research",
     "technical_skills": "HTML, Web Design"
   },
   {
@@ -103,8 +103,8 @@
     "title": "Lightspeed",
     "position": "Summer Fellow",
     "dates": "June 2017 - August 2017",
-    "description": "One of the world’s leading VC firms, annually inviting college startups to become fellows and grow their businesses. Awarded $65K grant for Memory Labs. Launched 3 marketing initiatives built on on discussions with partners and assignments that taught me more about customer discovery, financing, marketing, and pitching.",
-    "business_skills": "Customer Discovery, Promotional Marketing & Design, Adwords, Analytics, Customer Assurance, Decking",
+    "description": "Won a $65,000 grant from Lightspeed to build an Amazon Alexa-based assistant for dementia patients to remember their medication. Increased market segment awareness by generating 35+ hours of customer interviews and 200 reviews through marketing strategies. Managed product development using customer interviews to optimize and add 14 features utilizing HTML/CSS, Node.JS/JS skills. Worked with UCSF and QB3 to obtain Institutional Review Board backing and enable usage of product within assisted living facilities.",
+    "business_skills": "Customer Discovery, Promotional Marketing & Design, Adwords, Analytics, Product Management, Decking",
     "technical_skills": "HTML, CSS, JS, Voice APIs, Hardware Configuration"
   },
   {
@@ -115,8 +115,8 @@
     "title": "Memory Labs",
     "position": "Co-Founder, CFO",
     "dates": "February 2017 - December 2017",
-    "description": "Berkeley-based startup developing a voice-based AI assistant for the Alzheimer’s & Dementia community. Increased market segment awareness through outreach and marketing strategy. Improved product-market fit using data from customer conversations.",
-    "business_skills": "Customer Discovery, Promotional Marketing & Design, Adwords, Analytics, Customer Assurance, Decking",
+    "description": "Won a $65,000 grant from Lightspeed to build an Amazon Alexa-based assistant for dementia patients to remember their medication. Increased market segment awareness by generating 35+ hours of customer interviews and 200 reviews through marketing strategies. Managed product development using customer interviews to optimize and add 14 features utilizing HTML/CSS, Node.JS/JS skills. Worked with UCSF and QB3 to obtain Institutional Review Board backing and enable usage of product within assisted living facilities.",
+    "business_skills": "Customer Discovery, Promotional Marketing & Design, Adwords, Analytics, Product Management, Decking",
     "technical_skills": "HTML, CSS, JS, Voice APIs, Hardware Configuration"
   },
   {
@@ -127,9 +127,9 @@
     "title": "Intero",
     "position": "Real Estate Agent",
     "dates": "October 2016 - Present",
-    "description": "As a real estate agent with Intero, I helped buyers and sellers with their real estate needs. Performing analyses and creating reports, I was able to consistently and accurately forecast home selling prices. Over the course of one summer, I was able to put together a strong team across escrow, lending, and insurance agents to cut closing periods by 25% over industry average.",
-    "business_skills": "Data analysis, Marketing, Public Speaking",
-    "technical_skills": "Adobe Photoshop, Property Web Design, Offer Packet Design"
+    "description": "Sold $5.25mn worth of houses around the Bay Area in a 2-year period after studying for and attaining license in October of 2016. Cut offer closing period by 25% over industry average (28-day close) by leveraging my network of escrow, lending, & insurance agents. Maintained 100% callback rate for submitted client offers by pricing accurately using weighted regression on 1k+ similar transactions. Sourced over 180 contacts and 14 qualified leads by strategically posting 2000+ flyers and talking to clients at 15+ community events",
+    "business_skills": "Data Analysis, Marketing, Public Speaking, Negotiation, Salesmanship",
+    "technical_skills": "Python, Data Analysis, Adobe Photoshop, Web Design"
   },
   {
     "id": "agf",
@@ -151,7 +151,7 @@
     "title": "Azaad",
     "position": "Captain",
     "dates": "September 2016 - Present",
-    "description": "UC Berkeley Azaad is a nationally-ranked collegiate fusion dance team. While a large part of my time with this organization goes towards dancing, I also developed a leadership skills as a captain, learning to lead and connect efforts across departments. I also managed and fundraised a budget of $17K, managed prop logistics, and led digital recruiting efforts.",
+    "description": "UC Berkeley Azaad is Berkeley's nationally-ranked collegiate fusion dance team. Raised over $30k with 100+ cold emails to fund national trips by fielding performances at 40+ weddings, marathons, and birthdays. Choreographed 15-foot basket toss of teammate and human helicopter maneuver to win national championships among 70+ teams. Supported team of 26 by planning 7-day dance camp to develop camaraderie; Achieved record 10% churn through year of captainship",
     "business_skills": "Leadership, Fundraising, Promotional Marketing",
     "technical_skills": "Final Cut Pro, Motion, Excel, Adobe Audition"
   },
