@@ -11,6 +11,7 @@
   },
   {
     "img": "../img/logos/boxlet.jpg",
+    "bw": true,
     "title": "BoxletAdmin",
     "description": "The BoxletAdmin iOS app provides business automation & reporting for Boxlet Storage, an AirBnB for Storage. \n\nWorking with nontechnical members of our team, I define admin processes, then provide an interface for server-side financial and database adjustment.\n\nBoth statistical reporting and admin services are provided by the app. Deployed securely via a NodeJS deployment server.",
     "status": "Started May 2019",
@@ -32,12 +33,22 @@
   {
     "img": "../img/logos/boxlet.jpg",
     "title": "Boxlet - API",
-    "description": "The Boxlet RESTful API provides the backend logic that keeps all Boxlet services alive. \n\nI was the lead developer of the Boxlet API. ",
+    "description": "The Boxlet RESTful API provides the backend logic that keeps all Boxlet services alive. \n\nI was the lead developer of the Boxlet API. Notable features include enhanced geohash search, a transactional database system to prevent booking complications, a bin-packing algorithmn to manage storers, and access control security authorization via 256b symmetric keys.",
     "status": "Started April 2019",
     "languages": ["nodejs"],
     "is_private": true,
     "action": "Private",
     "link": ""
+  },
+  {
+    "img": "../img/logos/boxlet.jpg",
+    "title": "Boxlet - iOS",
+    "description": "The Boxlet iOS client is the largest revenue source for Boxlet Storage, bringing in over 200 bookings annually with nearly 500 downloads.\n\nI built this app entirely on my own as my co-founder developed the Android mirror.\n\nI built a data model cache, a custom object serialization/networking class, and multiple UI framework components to complete a 4 month app in 4 weeks.",
+    "status": "Started April 2019",
+    "languages": ["swift"],
+    "is_private": false,
+    "action": "Get the App!",
+    "link": "https://apps.apple.com/us/app/boxlet-storage/id1462153149"
   },
   {
     "img": "../img/logos/armdevsuite.jpg",
@@ -48,5 +59,25 @@
     "is_private": false,
     "action": "View GitHub",
     "link": "https://github.com/ajaymerchia/ARMDevSuite"
+  },
+  {
+    "img": "../img/logos/hidesnight.jpg",
+    "title": "HidesNight",
+    "description": "HidesNight was my first end-to-end iOS application exploring complicated Swift concepts. HidesNight manages high-tech, large-scale games of hide and seek.\n\nThe game was originally conceptualized by my friends and I at UC Berkeley. 90 minute games of of hide and seek, played in the dead of night, with GPS assist for the last 30 minutes.\n\nHidesNight taught me to build applications that use Background Modes for location updates, server-generated push notifications, in-app chat, and more.",
+    "status": "Completed December 2019",
+    "languages": ["swift"],
+    "is_private": false,
+    "action": "Get the App!",
+    "link": "https://apps.apple.com/us/app/hidesnight/id1449780984"
+  },
+  {
+    "img": "../img/logos/recruitmate.jpg",
+    "title": "RecruitMate",
+    "description": "RecruitMate was an iOS app to help students manage their recruiting pipelines.",
+    "status": "Completed December 2019",
+    "languages": ["swift"],
+    "is_private": false,
+    "action": "Get the App!",
+    "link": "https://apps.apple.com/us/app/hidesnight/id1449780984"
   }
 ]
