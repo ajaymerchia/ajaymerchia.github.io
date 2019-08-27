@@ -135,407 +135,111 @@
 					<i><p>Check out what types of things I've been up to!</p></i>
 				</div>
 
-				<!-- Note, when adding new prospects, simply move the <div> tags to figure it out -->
-				<div class="row">
+
+        <div id="experience-build-zone">
+          <script>
+          const skillBuildZone = document.getElementById("experience-build-zone")
+          var idx = 0
+
+          function elemClass(e, c) {
+            var elem = document.createElement(e)
+            if (c) {
+              elem.className = c
+            }
+
+            return elem
+          }
+          function addText(e, t) {
+            e.appendChild(document.createTextNode(t))
+          }
+
+          $.getJSON("work.json", function(work) {
+            var currRow, currSection
+            console.log(work);
+
+            for (experience of work){
+              console.log(experience.id);
+              if (idx % 4 == 0) {
+                // set the currRow
+                currRow = document.createElement("div")
+                currRow.className = "row"
+                // add it to buildzone
+                skillBuildZone.appendChild(currRow)
+              }
+              currSection = elemClass("div", "col-md-3 padding-def bottom-space")
+              currSection.appendChild(document.createElement("br"))
+              currRow.appendChild(currSection)
+
+              // Configure the section
+              function getBoldElement(text) {
+                var content = elemClass("b")
+                addText(content, text)
+                content.style.color = experience.accent
+                return content
+              }
+              // add Image
+              var imgSection = document.createElement("div")
+              var link = document.createElement("a")
+              var img = document.createElement("img")
+              link.appendChild(img)
+              imgSection.appendChild(link)
+              currSection.appendChild(imgSection)
+              link.href = experience.link
+              img.src = `../img/logos/${experience.img}`
+              img.style.borderRadius = "50px"
+
+              // add body
+              var bodySection = elemClass("div", "top-space centered")
+              currSection.appendChild(bodySection)
+
+              var body = elemClass("div", "scrunch")
+              bodySection.appendChild(body)
+
+              var title = elemClass("span", "company")
+              addText(title, experience.title)
+              body.appendChild(title)
+              body.appendChild(elemClass("hr"))
 
 
-					<div id="boxlet" class="col-md-3 padding-def bottom-space">
-						<div>
-							<a href="http://www.boxletstorage.com"><img src="../img/logos/boxlet.jpg"></a>
-						</div>
-						<div class="top-space centered">
-							<p class="scrunch">
-								<style>
-									#boxlet b {
-										color: #ff8903;
-									}
-								</style>
-								<span class="company">Boxlet</span><br>
-								<hr>
-								<span class="padless position"><b>Co-Founder, Tech Lead</b></span><br>
-								<i><span class="padless term">May 2018 - Present</span><br></i>
-								<hr>
-								<span style="text-align: justify">
-									Developed an online marketplace that targeted students with lease terms that
-									prevent subleases to rent space in their apartments for storage. Connected hosts
-									with students needing affordable local summer storage. Acquired 40 customers in
-									first 3 weeks of company life. Created MVP of technical product. Designed scalable back-end.
-									Developed Go-to-market strategy and created pricing models.
-									<br><br>
-									<b>Business Skills Used:</b> Promotional Marketing, Customer Discovery, Design, Ad Campaigns.
-									<br><br>
-									<b>Tech Skills Used:</b> HTML, CSS, JS, Node.JS, Google APIs, FB APIs, Stripe API, Heroku, Firebase.
-								</span>
-							</p>
-						</div>
-					</div>
-					<div id="sage" class="col-md-3 padding-def bottom-space">
-						<div>
-							<a href="https://www.sageintacct.com"><img src="../img/logos/sage.png"></a>
-						</div>
-						<div class="top-space centered">
-							<p class="scrunch">
-								<style>
-									#sage b {
-										color: #22da27;
-									}
-								</style>
-								<span class="company">Sage Intacct</span><br>
-								<hr>
-								<span class="padless position"><b>Marketing Intern</b></span><br>
-								<i><span class="padless term">May 2018 - August 2018</span><br></i>
-								<hr>
-								<span style="text-align: justify">
-									A Saas company providing cloud-based financial accounting software. Created integration between
-									SEM machine learning tool and marketing automation platform. Created lead qualification AI. Created
-									analytics and predictive intelligence tool for telemarkters. Performed multiple data dives across funnel
-									and resolved pipeline inefficiences.
-									<br><br>
-									<b>Business Skills Used:</b> Data analysis, Marketo, Adwords, Google Analytics, Microsoft Excel, Salesforce, Presentation Skills.
-									<br><br>
-									<b>Tech Skills Used:</b> HTML, CSS, DJango, Python, R, Heroku, Batch, FTP libraries, Assorted APIs, Node.JS, Express.JS, Chart.JS, CryptoJS, VBA.
-								</span>
-							</p>
-						</div>
-					</div>
-					<div id="mgames" class="col-md-3 padding-def bottom-space">
-						<div>
-							<a href="https://www.marketgames.io"><img src="../img/logos/mgames.jpg"></a>
-						</div>
-						<div class="top-space centered">
-							<p class="scrunch">
-								<style>
-									#mgames b {
-										color: #2574a9;
-									}
-								</style>
-								<span class="company">Market Games</span><br>
-								<hr>
-								<span class="padless position"><b>Business Development Intern</b></span><br>
-								<i><span class="padless term">January 2018 - April 2018</span><br></i>
-								<hr>
-								<span style="text-align: justify">
-									Berkeley-Haas start-up providing business simulation games for higher education.
-									Tested product in business simulations, as well as performed research on
-									higher education institutions through speaking with department heads in order to better
-									design and tailor web-based content.
-									<br><br>
-									<b>Business Skills Used:</b>
-									Content Marketing, Marketing Collateral Design, Market Research, Product testing,
-									knowledge of finance, operations, and marketing channels required for testing.
-									<br><br>
-									<b>Tech Skills Used:</b> HTML, Web Design.
-								</span>
-							</p>
-						</div>
-					</div>
-					<div id="campaign" class="col-md-3 padding-def bottom-space">
-						<div>
-							<a href="http://sharmaishan.com/campaign/campaign.html"><img src="../img/logos/campaign.jpg"></a>
-						</div>
-						<div class="top-space centered">
-							<p class="scrunch">
-								<style>
-									#campaign b {
-										color: #030d73;
-									}
-								</style>
-								<span class="company">Ishan for Senate</span><br>
-								<hr>
-								<span class="padless position"><b>Campaign Manager</b></span><br>
-								<i><span class="padless term">Feb 2018 - April 2018</span><br></i>
-								<hr>
-								<span style="text-align: justify">
-									Senate Campaign running on three platforms: Improving transportation on campus,
-									increasing accessibilty of resources for start-ups, and creating more opportunities for
-									professional development. Led much of the creative process automated email farming to amass
-									over 400 votes.
-									<br><br>
-									<b>Business Skills Used:</b>
-									Digital Video Production, Speech/Script writing.
-									<br><br>
-									<b>Tech Skills Used:</b> HTML, CSS, JS, Responsive Web Design, Bash Scripting, System Macros, Final Cut Pro.
-								</span>
-							</p>
-						</div>
-					</div>
+              var position = elemClass("span", "padless position")
+              position.appendChild(getBoldElement(experience.position))
+              body.appendChild(position)
+              body.appendChild(elemClass("br"))
 
-				</div>
-				<div class="row">
-					<div id="lg" class="col-md-3 padding-def bottom-space">
-						<div>
-							<a href="https://thelookingglass.io"><img src="../img/logos/lg.jpg"></a>
-						</div>
-						<div class="top-space centered">
-							<p class="scrunch">
-								<style>
-									#lg b {
-										color: #356f85;
-									}
-								</style>
-								<span class="company">The Looking Glass</span><br>
-								<hr>
-								<span class="padless position"><b>Marketing Intern</b></span><br>
-								<i><span class="padless term">Feb 2018 - April 2018</span><br></i>
-								<hr>
-								<span style="text-align: justify">
-									The Looking Glass is an augmented reality gaming studio bringing fandom worlds to life by partnering with
-									the relevant IP owners. In particular, they are working on develop AR games for the Star Wars fandom.
-									Increased recruiting awareness by designing 15+ design assets for a recruiting fair and developed additional
-									assets for the landing page. Finalized company logo amongst 18 different propositions & increased market
-									segment awareness by joining 50+ fandom groups.
-									<br><br>
-									<b>Business Skills Used:</b>
-									Creative Design, Photoshop, Customer Discovery
-									<br><br>
-								</span>
-							</p>
-						</div>
-					</div>
-					<div id="lsvp" class="col-md-3 padding-def bottom-space">
-						<div>
-							<a href="https://lsvp.com"><img src="../img/logos/lightspeed.png"></a>
-						</div>
-						<div class="top-space centered">
-							<p class="scrunch">
-								<style>
-									#lsvp b {
-										color: #ed6d5b;
-									}
-								</style>
-								<span class="company">Lightspeed</span><br>
-								<hr>
-								<span class="padless position"><b>Summer Fellow</b></span><br>
-								<i><span class="padless term">June 2017 - August 2017</span><br></i>
-								<hr>
-								<span style="text-align: justify">
-									One of the world’s leading VC firms, annually inviting college startups to become fellows and grow their businesses.
-									Awarded $65K grant for Memory Labs.
-									Launched 3 marketing initiatives built on on discussions with partners and assignments that taught me more about customer discovery, financing, marketing, and pitching.
-									<br><br>
-									<b>Business Skills Used:</b>
-									Customer Discovery, Promotional Marketing & Design, Adwords, Analytics, Customer Assurance, Decking.
-									<br><br>
-									<b>Tech Skills Used:</b> HTML, CSS, JS, Voice APIs, Hardware Configuration.
-								</span>
-							</p>
-						</div>
-					</div>
-					<div id="memlabs" class="col-md-3 padding-def bottom-space">
-						<div>
-							<a href="http://memory-labs.com/"><img src="../img/logos/memlabs.jpg"></a>
-						</div>
-						<div class="top-space centered">
-							<p class="scrunch">
-								<style>
-									#memlabs b {
-										color: #0b588a;
-									}
-								</style>
-								<span class="company">Memory Labs</span><br>
-								<hr>
-								<span class="padless position"><b>Co-Founder, CFO</b></span><br>
-								<i><span class="padless term">February 2017 - December 2017</span><br></i>
-								<hr>
-								<span style="text-align: justify">
-									Berkeley-based startup developing a voice-based AI assistant for the Alzheimer’s & Dementia community.
-									Increased market segment awareness through outreach and marketing strategy. Improved product-market fit
-									using data from customer conversations.
-									<br><br>
-									<b>Business Skills Used:</b>
-									Customer Discovery, Promotional Marketing & Design, Adwords, Analytics, Customer Assurance, Decking.
-									<br><br>
-									<b>Tech Skills Used:</b> HTML, CSS, JS, Voice APIs, Hardware Configuration.
-								</span>
-							</p>
-						</div>
-					</div>
-					<div id="intero" class="col-md-3 padding-def bottom-space">
-						<div>
-							<a href="http://ajaymerchia.realscout.com/"><img src="../img/logos/intero.jpg"></a>
-						</div>
-						<div class="top-space centered">
-							<p class="scrunch">
-								<style>
-									#intero b {
-										color: #57104b;
-									}
-								</style>
-								<span class="company">Intero</span><br>
-								<hr>
-								<span class="padless position"><b>Real Estate Agent</b></span><br>
-								<i><span class="padless term">October 2016 - Present</span><br></i>
-								<hr>
-								<span style="text-align: justify">
-									As a real estate agent with Intero, I helped buyers and sellers with their real estate needs. Performing
-									analyses and creating reports, I was able to consistently and accurately forecast home selling prices. Over
-									the course of one summer, I was able to put together a strong team across escrow, lending, and insurance agents
-									to cut closing periods by 25% over industry average.
-									<br><br>
-									<b>Business Skills Used:</b>
-									Data analysis, Marketing, Public Speaking.
-									<br><br>
-									<b>Tech Skills Used:</b> Adobe Photoshop, Property Web Design, Offer Packet Design.
-								</span>
-							</p>
-						</div>
-					</div>
+              var dateSection = elemClass("i")
+              var dates = elemClass("span", "padless term")
+              addText(dates, experience.dates)
+              dateSection.appendChild(dates)
+              body.appendChild(dateSection)
+              body.appendChild(elemClass("hr"))
 
-				</div>
+              var justifiedText = elemClass("span")
+              justifiedText.style.textAlign = "justify"
+              body.appendChild(justifiedText)
 
-				<div class="row">
-					<div id="agf" class="col-md-3 padding-def bottom-space">
-						<div>
-							<a href="https://ucbvotes.weebly.com"><img src="../img/logos/agf.jpg"></a>
-						</div>
-						<div class="top-space centered">
-							<p class="scrunch">
-								<style>
-									#agf b {
-										color: #1e4280;
-									}
-								</style>
-								<span class="company">AGF</span><br>
-								<hr>
-								<span class="padless position"><b>Campus Ambassador</b></span><br>
-								<i><span class="padless term">October 2016 - Apil 2017</span><br></i>
-								<hr>
-								<span style="text-align: justify">
-									As a Vote Everywhere Ambassador of the Andrew Goodman Foundation, I worked to host California
-									Secretary of State Alex Padilla, to speak on the importance of voter registration to over 400
-									students. I also arranged for ballot boxes at Cal and obtained NSLVE enrollment for the school.
-									Register 200+ students for the 2016 election.
-									<br><br>
-									<b>Business Skills Used:</b>
-									Networking, Event Planning, Writing.
-									<br><br>
-									<b>Tech Skills Used:</b> Web Design.
-								</span>
-							</p>
-						</div>
-					</div>
-					<div id="azaad" class="col-md-3 padding-def bottom-space">
-						<div>
-							<a href="https://www.facebook.com/ucbazaad/"><img src="../img/logos/azaad.jpg"></a>
-						</div>
-						<div class="top-space centered">
-							<p class="scrunch">
-								<style>
-									#azaad b {
-										color: #f5c933;
-									}
-								</style>
-								<span class="company">Azaad</span><br>
-								<hr>
-								<span class="padless position"><b>Captain, Props, Finance</b></span><br>
-								<i><span class="padless term">September 2016 - Present</span><br></i>
-								<hr>
-								<span style="text-align: justify">
-									UC Berkeley Azaad is a nationally-ranked collegiate fusion dance team. While a large part of
-									my time with this organization goes towards dancing, I also developed a leadership skills as a captain,
-									learning to lead and connect efforts across departments. I also managed and fundraised a budget of $17K,
-									worked out logistics for our props, and led digital recruiting efforts.
-									<br><br>
-									<b>Business Skills Used:</b>
-									Leadership, Fundraising, Promotional Marketing.
-									<br><br>
-									<b>Tech Skills Used:</b> Final Cut Pro, Motion, Excel, Adobe Audition.
-								</span>
-							</p>
-						</div>
-					</div>
-					<div id="freev" class="col-md-3 padding-def bottom-space">
-						<div>
-							<a href="http://freeventures.org/"><img src="../img/logos/freev.png"></a>
-						</div>
-						<div class="top-space centered">
-							<p class="scrunch">
-								<style>
-									#freev b {
-										color: #32004b;
-									}
-								</style>
-								<span class="company">Free Ventures</span><br>
-								<hr>
-								<span class="padless position"><b>Spring 2017 Batch</b></span><br>
-								<i><span class="padless term">February 2017 - May 2017</span><br></i>
-								<hr>
-								<span style="text-align: justify">
-									Berkeley-based accelerator program located at The House providing students with the resources to grow their ideas and innovate.
-									I attended weekly networking sessions with professionals in the technology and medical sectors for industry perspective as a part
-									of Memory Labs. Fine-tuned the craft of creating pitch decks with program coordinators with over 40 hours of decking, and ended up pitching
-									to VC firms, including Grelock Partners, Sequoia, and KPCB.
-									<br><br>
-									<b>Business Skills Used:</b>
-									Decking, Networking.
+              addText(justifiedText, experience.description)
+              justifiedText.appendChild(elemClass("br"))
+              justifiedText.appendChild(elemClass("br"))
 
-								</span>
-							</p>
-						</div>
-					</div>
-					<div id="asuc" class="col-md-3 padding-def bottom-space">
-						<div>
-							<a href="http://ajaymerchia.realscout.com/"><img src="../img/logos/asuc.jpg"></a>
-						</div>
-						<div class="top-space centered">
-							<p class="scrunch">
-								<style>
-									#asuc b {
-										color: #183e6c;
-									}
-								</style>
-								<span class="company">ASUC Offices</span><br>
-								<hr>
-								<span class="padless position"><b>Resources Coordinator</b></span><br>
-								<i><span class="padless term">October 2016 - January 2017</span><br></i>
-								<hr>
-								<span style="text-align: justify">
-									I was a part of both Senator Chris Yamas' office, as well as the Financial Wellness Commission.
-									During my time, I worked on an ASUC transfer student amendment which would increase their representation
-									in student government. Additionally, I wrote, lobbied, and got a bill passed that would require that
-									incoming students complete a basic financial literacy module.
-									<br><br>
-									<b>Business Skills Used:</b>
-									Networking, Public Speaking.
-								</span>
-							</p>
-						</div>
-					</div>
+              justifiedText.appendChild(getBoldElement("Business Skills Used: "))
+              addText(justifiedText, experience.business_skills)
 
-				</div>
+              if (experience.technical_skills) {
+                justifiedText.appendChild(elemClass("br"))
+                justifiedText.appendChild(elemClass("br"))
 
-				<div class="row">
-					<div id="peercourt" class="col-md-3 padding-def bottom-space">
-						<div>
-							<img src="../img/logos/scales.jpg">
-						</div>
-						<div class="top-space centered">
-							<p class="scrunch">
-								<style>
-									#peercourt b {
-										color: #00811e;
-									}
-								</style>
-								<span class="company">Peer Court</span><br>
-								<hr>
-								<span class="padless position"><b>Juvenile Attorney</b></span><br>
-								<i><span class="padless term">March 2014 - April 2017</span><br></i>
-								<hr>
-								<span style="text-align: justify">
-									Justice program with County’s Probation Department working to process dispositional hearings
-									for minors guilty of misdemeanors. Helped 15+ minors restore themselves and community.
-									 Met with offenders/victims to obtain mitigatory/exacerbating circumstances not in the JCR.
-									 Determined interventions best suited to stop crime pattern development through restorative justice.
-									 Drafted and conducted opening/closing statements, direct/cross exams before a jury of peers and a
-									 Superior Court Judge.
-									<br><br>
-									<b>Business Skills Used:</b>
-									Public Speaking.
-								</span>
-							</p>
-						</div>
-					</div>
-				</div>
+                justifiedText.appendChild(getBoldElement("Tech Skills Used: "))
+                addText(justifiedText, experience.technical_skills)
+              }
+
+
+              idx+=1;
+            }
+          });
+          </script>
+        </div>
+
+
 
 
 

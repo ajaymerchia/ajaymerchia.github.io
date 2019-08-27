@@ -64,7 +64,7 @@
     "img": "../img/logos/hidesnight.jpg",
     "title": "HidesNight",
     "description": "HidesNight was my first end-to-end iOS application exploring complicated Swift concepts. HidesNight manages high-tech, large-scale games of hide and seek.\n\nThe game was originally conceptualized by my friends and I at UC Berkeley. 90 minute games of of hide and seek, played in the dead of night, with GPS assist for the last 30 minutes.\n\nHidesNight taught me to build applications that use Background Modes for location updates, server-generated push notifications, in-app chat, and more.",
-    "status": "Completed December 2019",
+    "status": "Completed December 2018",
     "languages": ["swift"],
     "is_private": false,
     "action": "Get the App!",
@@ -73,11 +73,81 @@
   {
     "img": "../img/logos/recruitmate.jpg",
     "title": "RecruitMate",
-    "description": "RecruitMate was an iOS app to help students manage their recruiting pipelines.",
-    "status": "Completed December 2019",
+    "description": "RecruitMate was an iOS app to help students manage their recruiting pipelines. I built this app with two other developers from MDB, a student org.\n\nRecruitMate applied SaaS B2B marketing practices towards crafting a powerful CRM tool to push internship applications down the pipeline with multiple contacts/recruiters.\n\nI started developing an intelligent email parser to auto update application statuses based on inbound emails from flagged contacts. I also worked on building the pipeline UI, as well as the task/checklist management features.",
+    "status": "Completed November 2018",
     "languages": ["swift"],
     "is_private": false,
     "action": "Get the App!",
-    "link": "https://apps.apple.com/us/app/hidesnight/id1449780984"
+    "link": "https://apps.apple.com/us/app/recruitmate/id1443632649"
+  },
+  {
+    "img": "../img/logos/boxlet.jpg",
+    "title": "Boxlet - Web",
+    "description": "As an initial market test, I built a web app to support peer-to-peer storage.\n\nWithin 48 hours we went from nothing to having a full site supporting both listing & booking creation (including payments).\n\nTo build the initial web app, I used native HTML/CSS/JS for the front end, along with ExpressJS, Node.JS, Google APIs, Stripe APIs, and more to power the backend.",
+    "status": "Completed August 2018",
+    "languages": ["nodejs", "html"],
+    "is_private": true,
+    "action": "Private",
+    "link": "https://apps.apple.com/us/app/recruitmate/id1443632649"
+  },
+  {
+    "img": "../img/logos/opptycall.jpg",
+    "title": "OpptyCall",
+    "description": "Built a descriptive and prescriptive Artificial Intelligence that customizes telemarketer calling schedules. After implementation for 40+ users, doubled the organization's call connect rate.\n\nProtected IP; contact for details.",
+    "status": "Completed July 2018",
+    "languages": ["nodejs", "html"],
+    "is_private": true,
+    "action": "Protected IP",
+    "link": ""
+  },
+  {
+    "img": "../img/logos/gailq.png",
+    "title": "GAIL-Q",
+    "description": "G2-Crowd AI Lead Qualifier. This was a natural language processing artificial intelligence that I developed in Python to extract and qualify leads sourced from multiple PPL vendors.\n\nUsed viterbi segmentation algorithmn, Salesforce API, and LinkedIn API.\n\nProtected IP; contact for details.",
+    "status": "Completed June 2018",
+    "languages": ["python", "html"],
+    "is_private": true,
+    "action": "Protected IP",
+    "link": ""
+  },
+  {
+    "img": "../img/logos/mktoknsu.jpg",
+    "title": "Marketo-Kenshoo",
+    "description": "Built an integration between the Marketo, a marketing automation platform, and Kenshoo, an artificial intelligence PPC bidding tool. Automating this manual process improved ad effectiveness by 10% and reduced outsourcing costs.\n\nProtected IP; contact for details.",
+    "status": "Completed May 2018",
+    "languages": ["python"],
+    "is_private": true,
+    "action": "Protected IP",
+    "link": ""
+  },
+  {
+    "img": "../img/logos/campaign.jpg",
+    "title": "Senate Campaign",
+    "description": "This was my first responsive web-design project. As a campaign manager for an ASUC election, I created a website.\n\nI also wrote macro scripts that automatically farmed emails from the University database based on our candidate's connections",
+    "status": "Completed March 2018",
+    "languages": ["html"],
+    "is_private": false,
+    "action": "Visit Site",
+    "link": "http://sharmaishan.com/campaign/campaign.html"
+  },
+  {
+    "img": "../img/logos/memlabs.jpg",
+    "title": "Memory Labs",
+    "description": "Created two connected applications using Node.JS and HTML/CSS/JS to build a voice-based healthcare assistant for families with loved ones facing Alzheimer's and Dementia. \n\nUsed speech-to-text libraries to manage user interaction, and daemons to alert the user of system-generated events.",
+    "status": "Completed August 2017",
+    "languages": ["nodejs","html"],
+    "is_private": true,
+    "action": "Closed",
+    "link": ""
+  },
+  {
+    "img": "../img/logos/escape.jpg",
+    "title": "Escape!",
+    "description": "Escape from Math Mountain was my very first coding project. I created an educational game using Java Applets. It was a 2-player, math-based racing game in which players compete to escape Math Mountain first by solving 20 problems first.",
+    "status": "Completed May 2015",
+    "languages": ["java"],
+    "is_private": true,
+    "action": "View GitHub",
+    "link": "https://github.com/ajaymerchia/EscapeFromMathMountain"
   }
 ]
